@@ -1,82 +1,74 @@
-  body {
-    font: 400 15px Lato, sans-serif;
-    line-height: 1.8;
-    color: #818181;
-  }
-  h2 {
-    font-size: 24px;
-    color: #303030;
-    font-weight: 600;
-    margin-bottom: 30px;
-  }
+body {
+  font: 400 15px Lato, sans-serif;
+  line-height: 1.8;
+  color: #818181;
+}
 
-  h3 {
-    font-size: 20px;
-    color: #303030;
-    font-weight: 600;
-  }
-  .jumbotron {
-    background-color: #1C213B;
-    color: #fff;
-    padding: 100px 25px;
-    font-family: Montserrat, sans-serif;
-    margin-bottom: 0;
-  }
-  .container-fluid {
-    padding: 60px 50px;
-  }
-  .bg-grey {
-    background-color: #f6f6f6;
-  }
-  .navbar {
-    margin-bottom: 0;
-    background-color: #1C213B;
-    z-index: 9999;
-    border: 0;
-    font-size: 12px !important;
-    line-height: 1.42857143 !important;
-    letter-spacing: 4px;
-    border-radius: 0;
-    font-family: Montserrat, sans-serif;
-  }
-  .navbar li a, .navbar .navbar-brand {
-    color: #fff !important;
-  }
-  .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #1C213B !important;
-    background-color: #fff !important;
-  }
-  .navbar-default .navbar-toggle {
-    border-color: transparent;
-    color: #fff !important;
-  }
-  .navbar-toggler {
-    background-color: #CEC9C9;
-  }
-  .btn-link-to-registry {
-    color: #010101;
-    width: 100%; height: 100%;
-  }
-  .registryNote {
-    font-style: italic;
-    font-size:x-small;
-  }
+h2 {
+  font-size: 24px;
+  color: #303030;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
 
-  .registryTitle {
-    color: #fff;
-  }
-  /* @media screen and (max-width: 768px) {
-    .col-sm-4 {
-      text-align: center;
-      margin: 25px 0;
-    }
-    .btn-lg {
-      width: 100%;
-      margin-bottom: 35px;
-    }
-  }
-  @media screen and (max-width: 480px) {
-    .logo {
-      font-size: 150px;
-    }
-  } */
+h3 {
+  font-size: 20px;
+  color: #303030;
+  font-weight: 600;
+}
+
+.jumbotron {
+  background-color: #1C213B;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+  margin-bottom: 0;
+}
+
+.container-fluid {
+  padding: 60px 50px;
+}
+
+.navbar {
+  margin-bottom: 0;
+  background-color: #1C213B;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+}
+
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #1C213B !important;
+  background-color: #fff !important;
+}
+
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+
+.navbar-toggler {
+  background-color: #CEC9C9;
+}
+
+.btn-link-to-registry {
+  color: #010101;
+  width: 100%; height: 100%;
+}
+
+.registryNote {
+  font-style: italic;
+  font-size:x-small;
+}
+
+.registryTitle {
+  color: #fff;
+}
