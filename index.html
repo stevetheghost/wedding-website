@@ -17,29 +17,16 @@
       <a class="navbar-brand" href="#">
         <img class="d-block mx-auto mb-4" src="./gift-logo.svg" alt="" style="height:32px"> 
       </a>
+      <span class="registryTitle">Lynley & Steven's Wedding Registry</span>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item"><a class="nav-link" href="#anthropologie">Anthropologie Registry</a></li>
-          <li class="nav-item"><a class="nav-link" href="#zola">Zola Registry</a></li>
-          <li class="nav-item"><a class="nav-link" href="#otherreg">Other Registries</a></li>
-
-          <li class="nav-item"><a class="nav-link" href="./example2.html">Other Example</a></li>
-        </ul>
-      </div>
     </div>
   </nav>
-  
-<div class="jumbotron text-center">
-  <h1>Lynley & Steven's</h1>
-  <h1>Wedding Registry</h1> 
-</div>
 
 <!-- Container (About Section) -->
-<div id="anthropologie" class="container-fluid bg-grey">
-  <div class="row ">
+<div id="all_registries" class="container-fluid mt-5 ">
+  <div class="row my-2 mx-1">
     <a role="button" class="btn btn-outline-secondary btn-lg btn-block btn-link-to-registry" href="https://www.anthropologie.com/registry/listing?registryId=792322C8CB07" target="_blank" aria-pressed="true" >
       <div class="col" >
         <h3>Anthropologie Registry</h3> 
@@ -47,45 +34,37 @@
       </div>
     </a>
   </div>
-</div>
 
-<!-- Zola Registry-->
-<div id="zola" class="container-fluid">
-  <div class="row">
-    <a class="zola-registry-embed" href="https://www.zola.com/registry/kathleenandjohnp" data-registry-key="kathleenandjohnp">Our Zola Wedding Registry</a><script>!function(e,t,n){var s,a=e.getElementsByTagName(t)[0];e.getElementById(n)||(s=e.createElement(t),s.id=n,s.async=!0,s.src="https://widget.zola.com/js/widget.js",a.parentNode.insertBefore(s,a))}(document,"script","zola-wjs");</script>
+  <div class="row my-2 mx-1">
+    <a role="button" class="btn btn-outline-info btn-lg btn-block btn-link-to-registry" href="https://www.anthropologie.com/registry/listing?registryId=792322C8CB07" target="_blank" aria-pressed="true" >
+      <div class="col" >
+        <h3>Zola Registry</h3> 
+        <img src="./zola-logo.svg" alt="" style="height: 16px;"> 
+      </div>
+    </a>
   </div>
-</div>
 
-<!-- Container (Services Section) -->
-<div id="otherreg" class="container-fluid text-center bg-grey">
   <div class="row">
-   
-    <div class="row">
-      <h2>The Target and Amazon registries are included in the Zola registry, but feel free to see them here too.</h2>
-    </div>
-    
-    <!-- Target -->
-    <div class="row ">
+    <div class="col  m-1">
       <a role="button" class="btn btn-outline-danger btn-lg btn-block btn-link-to-registry" href="https://www.target.com/gift-registry/gift/steven-and-lynley-wedding" target="_blank" aria-pressed="true" >
-        <div class="col" >
+        <div class="col-sm p-1" >
           <h3>Target Registry</h3> 
-          <img src="./target-logo.svg" alt=""> 
+          <img src="./target-logo.svg" alt="" style="height:32px"> 
+          <div class="registryNote">*This registry is included in the Zola Registry</div>
         </div>
       </a>
     </div>
-    <div style="height: 1rem;"></div>
-
-    <!-- Amazon -->
-    <div class="row py-2">
+    <div class="col-sm  m-1">
       <a role="button" class="btn btn-outline-warning btn-lg btn-block btn-link-to-registry" href="https://www.amazon.com/wedding/steven-wojtan-lynley-burton-richmond-january-2024/registry/10IXGTAU5GLCI" target="_blank" aria-pressed="true" >
-        <div class="col" >
+        <div class="col p-1" >
           <h3>Amazon Registry</h3> 
           <img src="./amazon-logo.svg" alt="" style="height:32px"> 
+          <div class="registryNote">*This registry is included in the Zola Registry</div>
         </div>
       </a>
     </div>
-
   </div>
+  
 </div>
 
 
